@@ -1,0 +1,33 @@
+# MLXnarrator demo narration (about 90 seconds, roughly 200 words)
+#
+# Not spoken: lines starting with #, the **[MM:SS - MM:SS] - Title** marker lines, and --- rules.
+# Everything else is read aloud, so write the way you talk.
+#
+# Tip: spell out names the voice might trip over. "M L X narrator" sounds better than "MLXnarrator".
+# Tip: about two and a third words per second is a comfortable pace (video seconds x 2.3).
+
+**[00:00 - 00:12] - Hook**
+
+Every screen recording has the same flaw. It is silent. Twelve seconds of clicking, and eleven seconds of you wishing you had said something clever. Let's fix that.
+
+**[00:12 - 00:32] - Write it down**
+
+This is M L X narrator. You write what you want to say in a plain text file. Headings, timestamps and markdown are ignored, so you can keep your notes tidy. Then you drop your recording into the input folder. That is the whole setup.
+
+---
+
+**[00:32 - 00:52] - Generate**
+
+Now I run the generate script. A local voice reads the script, and the audio is sped up just enough to fit the video. Then Whisper listens to the result and writes the subtitles. Everything happens on this Mac. No cloud, no account, no surprise invoice.
+
+**[00:52 - 01:10] - Proofread**
+
+Next comes my favorite step: proofreading. The subtitles are a plain text file, so I can fix anything Whisper misheard. It is good, but it is not psychic. My edits are safe, because rendering never overwrites them.
+
+**[01:10 - 01:22] - Render**
+
+Finally, I render. Subtitles burned in, or no subtitles at all, whichever suits the day. And there it is: the finished video, waiting in the output folder.
+
+**[01:22 - 01:30] - Wrap up**
+
+Don't like the voice? Change one line and pick another. That is M L X narrator. Thanks for watching.

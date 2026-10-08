@@ -1,0 +1,43 @@
+# ---------- macOS / editors ----------
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# ---------- Python ----------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ---------- Secrets ----------
+.env
+.env.*
+*.token
+hf_token*
+
+# ---------- Working folders (created with mkdir, see README) ----------
+input/
+audio/
+output/
+subtitles/
+# Whisper models (~150 MB+). Download with the command in the README.
+models/
+
+# Safety net for stray media anywhere in the tree
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.bin
+*.gguf
+
+# ---------- Your narration scripts ----------
+# Your own scripts stay local; only the example is committed.
+# (Deliberately limited to scripts/ so requirements.txt is still tracked.)
+# To version a script of your own, add a line like: !scripts/my-demo.txt
+scripts/*.txt
+!scripts/narration.example.txt
