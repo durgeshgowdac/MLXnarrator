@@ -1,0 +1,25 @@
+version = 1
+
+# Files that are not analysed at all
+exclude_patterns = [
+  "assets/**",
+  ".venv/**",
+  "models/**",
+  "audio/**",
+  "output/**"
+]
+
+# Test code is analysed with test-specific rules
+test_patterns = [
+  "tests/**"
+]
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+# Shell scripts in bin/ and the double-click launchers
+[[analyzers]]
+name = "shell"
