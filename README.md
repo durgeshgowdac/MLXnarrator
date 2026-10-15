@@ -8,10 +8,6 @@
 
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-orange"></a>
-  <a href="https://github.com/durgeshgowdac/MLXnarrator/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/durgeshgowdac/MLXnarrator?include_prereleases&color=blue"></a>
-  <a href="https://github.com/durgeshgowdac/MLXnarrator/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/durgeshgowdac/MLXnarrator?style=flat&color=yellow"></a>
-  <a href="https://github.com/durgeshgowdac/MLXnarrator/issues"><img alt="Open issues" src="https://img.shields.io/github/issues/durgeshgowdac/MLXnarrator"></a>
-  <a href="https://github.com/durgeshgowdac/MLXnarrator/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/durgeshgowdac/MLXnarrator"></a>
   <a href="CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen"></a>
 </p>
 
