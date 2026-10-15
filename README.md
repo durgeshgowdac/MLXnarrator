@@ -38,7 +38,7 @@ No cloud. No API keys. No per-minute fees. No "your free trial has ended" email.
          │                         │
          ▼                         │
   Kokoro TTS (MLX)                 │
-  src/narrate.py                     │
+  src/narrate.py                   │
          │                         │
          ▼                         │
   atempo fit to video length       │
