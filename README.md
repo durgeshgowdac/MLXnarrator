@@ -27,6 +27,12 @@ Every demo video has the same problem: it's twelve seconds of you clicking thing
 
 **MLXnarrator** fixes that. Write what you want to say in a plain text file. It speaks the script with a local text-to-speech model, fits the narration to your video, listens to itself with Whisper to produce subtitles, and renders a finished MP4 with ffmpeg.
 
+## Demo
+
+<video src="https://github.com/user-attachments/assets/5a608440-bfb1-4e4f-9666-8f4494da2579" controls width="720">
+  Your browser does not support inline video.
+</video>
+
 No cloud. No API keys. No per-minute fees. No "your free trial has ended" email.
 
 ```
